@@ -1,0 +1,658 @@
+
+/*-----------------------------Start Mobile------------------------*/
+@media (max-width: 480px)
+{
+    /****************************Start Main Settings*****************************/
+    body{
+        overflow-x: hidden;
+        font-size: 19px;
+    }
+
+
+    .triangle-right
+    {
+        margin-left: -16.9%;
+        width: 130%;
+        overflow-x: hidden;
+        margin-bottom: -5.6px;
+    }
+
+    .triangle-left
+    {
+        overflow-x: hidden;
+        width: 116%;
+        margin-top: -1.2%;
+    }
+    .row
+    {
+        width: 50%;
+        margin: 20px auto;
+    }
+    /****************************End Main Settings*****************************/
+    header .logo
+    {
+        padding-left: 2.5%;
+    }
+    .logo img
+    {
+        width: 70%;
+    }
+
+    .nav-in-media
+    {
+        top: .2%;
+        margin-right: 1%;
+    }
+
+    header  .brand
+    {
+        display: none;
+        height: 100%;
+        float: right;
+        text-align: center;
+        margin-right: 15%;
+        border:none;
+        clear: both;
+        margin-top: 5px;
+        width: 80%;
+    }
+
+    .nav-in-media
+    {
+        display: block;
+    }
+    .links ul li
+    {
+        margin: 0;
+    }
+    .brand li
+    {
+        display: block;
+        width: 98%;
+        padding: 20px;
+        margin: 0 auto;
+        font-size: 19px;
+        border-bottom: 1px solid #9ABD1D;
+        background-color: rgba(243, 243, 243, 0.82);
+    }
+
+    .brand li:hover
+    {
+        background-color: rgba(226, 226, 226, 0.82);
+    }
+    .timing
+    {
+        width: 80%;
+        margin: 7% auto;
+        font-size: 16px;
+    }
+
+    .timing #clock
+    {
+        font-size: 28px;
+        letter-spacing: 3px;
+    }
+
+    .word
+    {
+        word-spacing: 7px;
+        padding-left: 5%;
+        margin-top: 5px;
+    }
+
+    .photos
+    {
+        margin-bottom: -20%;
+    }
+    .welcome_p
+    {
+        width: 95%;
+        float: none;
+        margin-left: 1%;
+    }
+
+    .welcome_contact
+    {
+        width: 54%;
+        margin: 10px auto;
+        float: none;
+        position: static;
+    }
+
+    .agenda
+    {
+        width: 97%;
+    }
+    .agenda i
+    {
+        display: none;
+    }
+
+    .agenda h3
+    {
+        width: 13%;
+        float: left;
+        padding-left: 10px;
+    }
+    .field h3
+    {
+        padding-left: 5px;
+        float: left;
+        margin-left: 0;
+    }
+    .agenda h4
+    {
+        width: 52%;
+        float: right;
+        padding-right: 10px;
+        padding-top: 8%;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .field
+    {
+        padding: 5px;
+    }
+    .agenda .field h3, h4
+    {
+        margin: 0;
+    }
+    .field h4
+    {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .elites-p
+    {
+        width: 56%;
+        font-size: 15px;
+    }
+
+    .elites-img
+    {
+        width: 30%;
+        margin-left: 8%;
+    }
+
+    .elites-img img
+    {
+        width: 78%;
+        top: -70px;
+    }
+    .elites .triangle-right , .sponsor .triangle-right
+    {
+        width: 118%;
+        overflow-x: hidden;
+    }
+
+
+    .speaker-card
+    {
+        width: 56%;
+        height: 275px;
+        margin: 20px auto;
+    }
+    .back ul li a .fa
+    {
+        margin-left:  auto;
+    }
+
+
+    .past-events
+    {
+        height: 1050px;
+    }
+    .event-container
+    {
+        width: 95%;
+        height: 150px;
+    }
+
+   .event-container .event1
+    {
+        float: none;
+        width: 90%;
+        height: 185px;
+        margin: 10px auto;
+    }
+ .event-container .event2
+  {
+    float: none;
+     width: 70%;
+     clear: both;
+     margin: 10px auto;
+  }
+
+    .past-events button
+    {
+        width: 40%;
+        margin-top: 145%;
+    }
+
+    .contact-us
+    {
+        height: 680px;
+        margin-top: 10%;
+    }
+    .contact-us .map iframe
+    {
+        height: 100%;
+    }
+    .overlay
+    {
+        height: 680px;
+        padding: 3% auto;
+    }
+
+    .overlay .overlay-container
+    {
+        height: 95%;
+    }
+    .overlay-container .view-map
+    {
+        float: none;
+        width: 80%;
+    }
+    .overlay .contact-msg
+    {
+        float: none;
+        width: 80%;
+        margin-top: 10px;
+    }
+    .overlay-container .view-map p
+    {
+        width: 90%;
+    }
+
+    .contact-us .overlay
+    {
+        bottom: 100px;
+    }
+
+
+    footer
+    {
+        height: 110px;
+        font-size: 14px;
+        padding-top: 5%;
+    }
+    footer .social-contact ul li
+    {
+        padding: 3px;
+        margin-top: 6%;
+    }
+
+    footer .social-contact ul li a .fa
+    {
+        padding: 6px;
+    }
+
+
+
+}
+/*-----------------------------End Mobile------------------------*/
+
+
+/*-----------------------------Start Smart Phones &tablates------------------------*/
+@media (min-width: 480px) and (max-width: 767px)
+{
+
+    /****************************Start Main Settings*****************************/
+    body{
+        overflow-x: hidden;
+        font-size: 19px;
+    }
+
+
+    .triangle-right
+    {
+        margin-left: -16.9%;
+        width: 130%;
+        overflow-x: hidden;
+        margin-bottom: -5.6px;
+    }
+
+    .triangle-left
+    {
+        overflow-x: hidden;
+        width: 116%;
+        margin-top: -1.2%;
+    }
+    .row
+    {
+        width: 34%;
+    }
+    /****************************End Main Settings*****************************/
+    header .logo
+    {
+        padding-left: 2.5%;
+    }
+
+
+
+
+    header  .brand
+    {
+        display: none;
+        height: 100%;
+        float: right;
+        text-align: center;
+        margin-right: 15%;
+        border:none;
+        clear: both;
+        margin-top: 5px;
+        width: 80%;
+    }
+
+    .nav-in-media
+    {
+        display: block;
+    }
+    .links ul li
+    {
+        margin: 0;
+    }
+    .brand li
+    {
+        display: block;
+        width: 98%;
+        padding: 20px;
+        margin: 0 auto;
+        font-size: 19px;
+        border-bottom: 1px solid #9ABD1D;
+        background-color: rgba(243, 243, 243, 0.82);
+    }
+
+    .brand li:hover
+    {
+        background-color: rgba(226, 226, 226, 0.82);
+    }
+    .timing
+    {
+        width: 80%;
+    }
+
+    .word
+    {
+        word-spacing: 7px;
+        padding-left: 5%;
+        margin-top: 5px;
+    }
+
+    .photos
+    {
+        margin-bottom: -15%;
+    }
+    .welcome_p
+    {
+        width: 90%;
+        float: none;
+    }
+
+    .welcome_contact
+    {
+        width: 54%;
+        margin: 10px auto;
+        float: none;
+        position: static;
+    }
+
+    .agenda
+    {
+        width: 90%;
+    }
+    .agenda i
+    {
+        display: none;
+    }
+
+    .elites-p
+    {
+        width: 55%;
+    }
+
+    .elites-img
+    {
+        width: 30%;
+        margin-left: 8%;
+    }
+
+    .elites-img img
+    {
+        width: 78%;
+        top: -113px;
+    }
+    .elites .triangle-right , .sponsor .triangle-right
+    {
+        width: 118%;
+        overflow-x: hidden;
+    }
+
+
+    .speaker-card
+    {
+        width: 35%;
+        height: 275px;
+        margin: 20px auto;
+    }
+    .back ul li a .fa
+    {
+        margin-left:  auto;
+    }
+    .event-container
+    {
+        width: 90%;
+    }
+
+    .overlay-container .view-map p
+    {
+        width: 90%;
+    }
+
+    .contact-us .overlay
+    {
+        bottom: 100px;
+    }
+    footer
+    {
+        height: 100px;
+    }
+    footer .social-contact ul li
+    {
+        padding: 3px;
+        margin-top: 6%;
+    }
+
+    footer .social-contact ul li a .fa
+    {
+        padding: 6px;
+    }
+
+
+}
+/*-----------------------------End Smart Phones &tablates--------------------------*/
+
+/*-----------------------------Start small Screen----------------------------------*/
+@media (min-width: 768px) and (max-width: 991px)
+{
+
+    /****************************Start Main Settings*****************************/
+    body{
+        overflow-x: hidden;
+        font-size: 19px;
+    }
+
+
+    .triangle-right
+    {
+        margin-left: -16.9%;
+        width: 130%;
+        overflow-x: hidden;
+        margin-bottom: -5.6px;
+    }
+
+    .triangle-left
+    {
+        overflow-x: hidden;
+        width: 107%;
+    }
+    .row
+    {
+        width: 34%;
+    }
+    /****************************End Main Settings*****************************/
+    header .logo
+    {
+        padding-left: 2.5%;
+    }
+
+    header .brand
+    {
+        padding-right: 3%;
+        float: right;
+        padding-left: 10%;
+    }
+
+    .welcome_p
+    {
+        width: 90%;
+        float: none;
+    }
+
+    .welcome_contact
+    {
+        width: 54%;
+        margin: 10px auto;
+        float: none;
+        position: static;
+    }
+
+    .agenda
+    {
+        width: 90%;
+    }
+
+    .elites .triangle-right , .sponsor .triangle-right
+    {
+        width: 118%;
+        overflow-x: hidden;
+    }
+
+    .speaker-card
+    {
+        width: 27%;
+        height: 250px;
+    }
+    .event-container
+    {
+        width: 90%;
+    }
+
+    .overlay-container .view-map p
+    {
+        width: 90%;
+    }
+}
+/*-----------------------------End small Screen----------------------------------*/
+
+
+/*-----------------------------Start medium Screen----------------------------------*/
+@media(min-width: 992px) and (max-width: 1199px)
+{
+
+    /****************************Start Main Settings*****************************/
+    body{
+        overflow-x: hidden;
+        font-size: 19px;
+    }
+
+
+    .triangle-right
+    {
+        margin-left: -16.9%;
+        width: 130%;
+        overflow-x: hidden;
+    }
+
+    .triangle-left
+    {
+        overflow-x: hidden;
+        width: 108%;
+    }
+    .row
+    {
+        width: 33%;
+    }
+    /****************************End Main Settings*****************************/
+
+    /****************************Start header*****************************/
+    header .logo
+    {
+        padding-left: 5%;
+    }
+
+    header .brand
+    {
+        padding-left: 14%;
+    }
+
+    /****************************Start header*****************************/
+
+
+    /****************************Start Welcome Section*****************************/
+    .welcome_contact
+    {
+        margin-right: 3%;
+    }
+    /****************************End Welcome Section*****************************/
+
+    /****************************Start Event Details Section***************************/
+    .event-detail p
+    {
+        width: 90%;
+        font-size: 18px;
+    }
+    /****************************End Event Details Section*****************************/
+
+    /****************************Start Past Events Section*****************************/
+    .event-container
+    {
+        width: 90%;
+    }
+    /****************************End Past Events Section*****************************/
+    .elites .triangle-right , .sponsor .triangle-right
+    {
+        width: 117%;
+        overflow-x: hidden;
+    }
+
+    .speaker-card
+    {
+        width: 26%;
+    }
+
+    .overlay-container .view-map p
+    {
+        width: 80%;
+    }
+    .view-map button
+    {
+        margin-top: 4%;
+    }
+
+}
+
+
+/*-----------------------------End medium Screen----------------------------------*/
+
+/*-----------------------------Start large Screen----------------------------------*/
+@media(min-width: 1200px)
+{
+    .elites .triangle-right , .sponsor .triangle-right
+    {
+        width: 118%;
+        overflow-x: hidden;
+    }
+
+}
+/*-----------------------------End large Screen----------------------------------*/

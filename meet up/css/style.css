@@ -1,0 +1,883 @@
+
+/*==================================================
+
+Project:	Meet Up - Event
+Version:	1.0
+Last change:	27/01/16
+Author :	Eman Khalifa
+
+/**
+ * Table of Contents :
+ *
+* 1.0 - Main Settings CSS
+* 2.0 - HEADER CSS
+* 2.1 - navigation
+* 2.2 - Timing Counter
+* 3.0 - WELCOME SECTION
+* 4.0 - EVENT DETAILS SECTION
+* 4.1 - event features
+* 4.2 - event media
+* 5.0 - ELITES SECTION
+* 6.0 - SPEAKERS SECTION
+* 7.0 - SPONSOR SECTION
+* 8.0 - PAST EVENTS SECTION
+* 9.0 - CONTACT US SECTION
+* 9.1 - map of the event
+* 9.2 - send message
+* 10.0 - FOOTER SECTION
+* 10.1 - copy rights
+* 10.2 - site links
+
+====================================================
+[Color codes]
+
+Background        :	#ffffff (white)
+Header Background : #433f44
+Footer Background : #82b541
+
+a (standard):	#e8e7e8
+a (active):	    #ffffff
+
+[Typography]
+
+Body copy:		17px/ 'PT Sans Narrow', sans-serif;
+Headers:		'PT Sans Narrow', sans-serif;
+Input, textarea:	'PT Sans Narrow', sans-serif;
+Sidebar heading:	''PT Sans Narrow', sans-serif;
+
+
+/*******************************Start Main Settings********************************/
+body
+{
+    width: 100%;
+    margin: 0 auto;
+    color: #000;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 17px;
+    perspective: 5000px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #e8e7e8;
+    font-weight: bold;
+}
+
+ul li
+{
+    list-style: none;
+    display: inline-block;
+
+}
+ul
+{
+    padding-top: 5px;
+}
+
+.boxing
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clear
+{
+    clear: both;
+}
+p
+{
+    line-height: 25px;
+}
+
+.container
+{
+    color: #ffffff;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0;
+
+}
+.row
+{
+    width: 25%;
+    text-align: center;
+}
+button:hover
+{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.triangle-right
+{
+    margin-bottom: -.6%;
+    margin-left: -10.9%;
+    width: 119%;
+    height: 100px;
+    display: inline-block;
+    background-image: linear-gradient(to top right, #fff -14%, transparent 2%), linear-gradient(to top left, #fff 49%, transparent 50%)
+}
+
+.triangle-left
+{
+    margin-bottom: -.6%;
+    margin-top: -.2%;
+    margin-left: -5.9%;
+    width: 109%;
+    height: 100px;
+    display: inline-block;
+    background-image: linear-gradient(to bottom left, #fff -14%, transparent 2%), linear-gradient(to bottom right, #fff 49%, transparent 50%)
+}
+/**************************************Start Header *****************************************/
+header
+{
+    width: 100%;
+    text-align: center;
+    background-color: #433f44;
+    color: #f7f6f7;
+    padding-bottom: 0;
+
+}
+
+/*------------------------------ Start Navigation----------------------------------------*/
+header .logo
+{
+    float: left;
+    padding-top: 25px;
+    padding-left: 10.6%;
+}
+header .brand
+{
+    float: left;
+    padding-top: 25px;
+    padding-left: 13%;
+}
+ul li
+{
+    padding: 6px;
+    font-size: large;
+}
+
+ul li a:hover
+{
+    color: #82b541;
+}
+
+.nav-in-media
+{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    padding: 4px;
+    top: .5%;
+    float: right;
+    right: 5%;
+    background-color: rgba(122, 121, 126, 0.88);
+    display: none;
+    color: #9ABD1D;
+}
+
+.nav-in-media:hover
+{
+    background-color: #d8dedf;
+}
+.nav-toggle
+{
+    border-bottom: 1px solid #9ABD1D;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding: 5px;
+}
+/*------------------------------ End Navigation----------------------------------------*/
+
+/*------------------------------ Start Timing----------------------------------------*/
+
+.timing
+{
+    text-align: center;
+    border: 2px solid #82b541;
+    padding: 10px;
+    margin: 6% auto;
+    border-radius: 10px;
+    width: 70%;
+    background-color: #292929;
+    color: #b7ff5c;
+    -webkit-box-shadow: 3px 3px rgba(173, 207, 79, 0.82);
+    -moz-box-shadow: 3px 3px rgba(173, 207, 79, 0.82);
+    box-shadow: 3px 3px rgba(173, 207, 79, 0.82);
+    -webkit-transition: all ease-in-out 1s;
+    -moz-transition: all ease-in-out 1s;
+    transition: all ease-in-out 1s;
+}
+
+.timing:hover
+{
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    transform: scale(.9);
+}
+.timing #clock
+{
+    font-size: 30px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 5px;
+}
+
+.word
+{
+    word-spacing: 10px;
+    padding-left: 5.5%;
+    margin-top: 5px;
+}
+span .colon
+{
+    color: #82b541;
+    font-weight: bolder;
+}
+
+.pics
+{
+    display: inline-block;
+    margin-top: 9%;
+    position: relative;
+}
+
+.photos
+{
+    width: 75%;
+    display: block;
+    margin-bottom: -12%;
+
+}
+.photos img
+{
+    width: 13%;
+    border: 2px solid #acf056;
+    border-radius: 50%;
+    background-color: #292929;
+}
+
+.photos img:first-child
+{
+    margin-bottom: 0px;
+}
+.photos img:nth-of-type(2)
+{
+    margin-bottom: 10px;
+}
+
+.photos img:nth-of-type(3)
+{
+    margin-bottom: 15px;
+}
+
+.photos img:nth-of-type(4)
+{
+    margin-bottom: 30px;
+}
+.photos img:nth-of-type(5)
+{
+    margin-bottom: 40px;
+}
+
+
+
+/**************************************End Header *****************************************/
+
+/**********************************Start Welcome Section**********************************/
+.welcome
+{
+    width: 100%;
+}
+
+.welcome_p
+{
+    float: left;
+    width: 50%;
+    height: 100%;
+    display: block;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    padding: 10px 1%;
+}
+.welcome h2,h3
+{
+    color: #8ec647;
+}
+
+.welcome_p p
+{
+    color: #787878;
+    text-align: left;
+}
+
+.welcome_contact
+{
+    width: 30%;
+    float: right;
+    margin-right: 5%;
+    background-color: #ffffff;
+    margin-top: -150px;
+    right: 0;
+    position: absolute;
+    border-radius: 10px;
+    border:1px solid #bfbfbf;
+    text-align: center;
+    color: #d1d1d1;
+    font-size: 16px;
+    padding: 10px;
+}
+.welcome_contact input,button
+{
+    width: 80%;
+    border: 1px solid #7dae3e;
+    border-radius: 5px;
+    padding: 5px 12px;
+    margin: 7px;
+}
+
+ button
+{
+    background-color: #8ec647;
+    color: #ffffff;
+    width: 87%;
+    margin: 25px 10px 10px 10px;
+    padding: 8px;
+    -webkit-transition: all ease-in-out 1s;
+    -moz-transition: all ease-in-out 1s;
+    transition: all ease-in-out 1s;
+}
+
+.welcome_contact button:hover
+{
+    background-color: #5a6e5a;
+    color: #b0f758;
+    border: 1px solid #e8e7e8;
+}
+.welcome_contact p
+{
+    text-align: center;
+    padding: 30px auto;
+    margin: 5px auto;
+    font-size: 16px;
+    width: 70%;
+}
+
+/**********************************End Welcome Section**********************************/
+
+/********************************Start Event Details Section*****************************/
+.event-detail
+{
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.features
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 5%;
+    flex-wrap: wrap;
+}
+
+.row img
+{
+    width: 50%;
+    cursor: pointer;
+    -webkit-transition: all ease-in-out 1s;
+    -moz-transition: all ease-in-out 1s;
+    transition: all ease-in-out 1s;
+}
+
+.row img:hover
+{
+    transform: rotate(360deg);
+}
+.row p
+{
+    color: #606060;
+    padding: 5px;
+    text-align: center;
+}
+
+.agenda
+{
+    width: 80%;
+    margin: 60px auto ;
+    text-align: center;
+    border-radius: 20px;
+}
+.agenda .title
+{
+    color: #ffffff;
+    background-color: #7db03f;
+    height: 70px;
+    width: 100%;
+    padding: 5px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: 0;
+
+}
+
+.agenda h3,h4
+{
+    display: inline-flex;
+    color: #ffffff;
+    padding-left: 50px;
+
+}
+
+.agenda h3
+{
+    width: 20%;
+    float: left;
+}
+.agenda h4
+{
+    width: 55%;
+    float: left;
+}
+.field
+{
+    color: #ffffff;
+    height: 70px;
+    width: 100%;
+    padding: 5px;
+    -webkit-transition: all ease-in-out 1s;
+    -moz-transition: all ease-in-out 1s;
+    transition: all ease-in-out 1s;
+}
+.field h3,h4
+{
+    font-weight: normal;
+    font-size: 15px;
+}
+.agenda .field .fa
+{
+    text-align: center;
+    padding: 24px 20px;
+    cursor: pointer;
+}
+
+.field:nth-of-type(odd)
+{
+    background-color: #787878;
+}
+
+.field:nth-of-type(even)
+{
+    background-color: #292929;
+}
+
+.field:last-of-type
+{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.field:hover
+{
+    background-color: #8ec647;
+}
+.event-detail p
+{
+    color: #696969;
+    width: 85%;
+    margin: 20px auto;
+    font-size: 16px;
+}
+
+
+/********************************End Event Details Section*****************************/
+
+/********************************Start Event Elites Section*****************************/
+.elites
+{
+    width: 100%;
+    background-color: #4b4d4f;
+    font-size: 16px;
+}
+
+.elites-img
+{
+    float: left;
+    width: 30%;
+    margin-left: 14%;
+    position: relative;
+}
+.elites-img img
+{
+    width: 68%;
+    position: absolute;
+    top: -132px;
+
+}
+.elites-p
+{
+    float: right;
+    text-align: right;
+    width: 45%;
+    margin: 0 10% 4% 2%;
+    color: #d7d7d7;
+}
+ h1
+{
+    color: #90c848;
+}
+ button
+{
+    width: 47%;
+    background-color: #a2e151;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+ .elites .triangle-right
+ {
+     width: 111%;
+ }
+/********************************End Event Elites Section*****************************/
+
+/********************************Start Speakers Section*****************************/
+.speakers
+{
+    width: 100%;
+    padding-top: 50px;
+}
+.speakers h1,p
+{
+    margin-left: 10%;
+}
+.speakers p
+{
+    width: 80%;
+    color: #696a6e;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+    margin: 10px auto;
+    flex-wrap: wrap;
+}
+.speaker-card
+{
+    width: 33%;
+    height: 240px;
+    padding: 5px;
+    cursor: pointer;
+    -webkit-transition: all ease-in-out .94s;
+    -moz-transition: all ease-in-out .94s;
+    transition: all ease-in-out 1.5s;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    margin: 20px 0;
+}
+.speaker-card > div
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #90c848;
+    border-radius: 10px;
+}
+.front
+{
+    z-index: 2;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.front img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.back
+{
+    z-index: 1;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.back h2
+{
+    text-align: center;
+}
+.back p
+{
+    color: #e8e7e8;
+    text-align: center;
+    margin: 5px auto;
+}
+.back ul li a .fa
+{
+    text-align: left;
+    display: inline-block;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #5d7452;
+    color: #ffffff;
+    border-radius: 50%;
+    margin-left: 15%;
+}
+.speaker-card:hover
+{
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+/********************************End Speakers Section*****************************/
+
+/********************************Start Sponsor Section*****************************/
+.sponsor
+{
+    width: 100%;
+    background-color: #4b4d4f;
+    text-align: center;
+}
+.sponsor p
+{
+    color: #bfbfbf;
+    width: 70%;
+    margin: 5px auto;
+}
+.sponsor h3
+{
+    color: #ffffff;
+}
+.row img:nth-of-type(2)
+{
+    width: 40%;
+    height: 50%;
+}
+.sponsor button
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 30%;
+}
+/********************************End Sponsor Section*****************************/
+
+/********************************Start Past Events Section*****************************/
+.past-events
+{
+    width: 100%;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.past-events h1,p
+{
+    margin-left: 10%;
+    text-align: left;
+
+}
+.past-events p
+{
+    color: #696a6e;
+    width: 80%;
+    margin: 5px auto 70px;
+}
+.event-container
+{
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+}
+.event-container .event1
+{
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+.event-container .event2
+{
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+.event-container img
+{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #58b25e;
+}
+.past-events button
+{
+    width: 26%;
+    margin: 35px 40% 35px 40%;
+}
+.event1,.event2
+{
+    -webkit-transition: all ease-in-out 1s;
+    -moz-transition: all ease-in-out 1s;
+    transition: all ease-in-out 1s;
+}
+.event1:hover,.event2:hover
+{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/********************************End Past Events Section*****************************/
+
+/********************************Start Contact us Section*****************************/
+.contact-us
+{
+    width: 100%;
+    height: 450px;
+    margin-top: 30px;
+}
+
+.map iframe
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 90px;
+
+}
+.overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    bottom: 75px;
+    background-color: rgba(60, 66, 60, 0.9);
+    z-index: 10;
+    text-align: center;
+    display: block;
+}
+.overlay .overlay-container
+{
+    width: 85%;
+    margin: 3% auto;
+    height: 88%;
+    background-color: #ffffff;
+    padding: 2%;
+    display: block;
+    position: static;
+}
+.overlay-container .view-map
+{
+    float: left;
+    width: 40%;
+    color: #656465;
+}
+.overlay-container .view-map p
+{
+    width: 60%;
+    padding: 10px;
+    margin: 5px auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+.overlay .contact-msg
+{
+    float: right;
+    width: 40%;
+}
+.overlay .contact-msg form input ,textarea
+{
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border: 1px solid #82b541;
+}
+.overlay .contact-msg form textarea
+{
+    height: 115px;
+}
+.overlay .contact-msg form button
+{
+    width: 87%;
+    margin-top: 5px;
+}
+/********************************End Contact us Section*****************************/
+
+/********************************Start Footer Section*****************************/
+footer
+{
+    width: 100%;
+    height: 75px;
+    padding: 5px;
+    background-color: #82b541;
+    bottom: 0;
+}
+.copyrights
+{
+    float: left;
+    width: 50%;
+    text-align: center;
+    color: #e8e7e8;
+}
+.social-contact
+{
+    float: right;
+    width: 50%;
+}
+.social-contact ul
+{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.social-contact ul li a .fa
+{
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #517441;
+    -webkit-transition: all ease-in-out 1s;
+    -moz-transition: all ease-in-out 1s;
+    transition: all ease-in-out 1s;
+}
+.social-contact ul li a .fa:hover
+{
+    color: #ffffff;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+/********************************End Footer Section*****************************/
+
+/*******************************Start Scroll up button ****************************/
+#scroll-up
+{
+    position: fixed;
+    z-index: 999888;
+    right: 15px;
+    bottom: 85px;
+    height: 45px;
+    width: 45px;
+    background-color: rgba(106, 151, 86, 0.90);
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 14px;
+    display: none;
+}
+/*******************************End Scroll up button ****************************/
